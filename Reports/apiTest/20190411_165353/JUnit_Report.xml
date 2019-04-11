@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="apiTest" time="2" tests="1" failures="0" errors="0">
+   <testsuite name="apiTest" tests="1" failures="0" errors="0" time="2" timestamp="2019-04-11 16:53:59" hostname="Administrator - DESKTOP-GNUSQOI" id="Test Suites/apiTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\KatalonDemo\\Reports\\apiTest\\20190411_165353"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\KatalonDemo\\Reports\\apiTest\\20190411_165353\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-GNUSQOI"/>
+         <property name="hostAddress" value="172.16.1.164"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ps-api" classname="Test Cases/ps-api" status="PASSED">
+         <system-out><![CDATA[2019-04-11 16:54:00 - [TEST_CASE][PASSED] - Test Cases/ps-api: Test Cases/ps-api
+
+2019-04-11 16:54:00 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GetToken")): Send request and verify the response successfully
+
+2019-04-11 16:54:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - jsonSlurper = new groovy.json.JsonSlurper(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - jsonResponse = jsonSlurper.parseText(response.getResponseText()): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - token = token: null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - file = new java.io.File(Data Files/testData/token.csv): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - out = new java.io.BufferedWriter(new java.io.FileWriter(file)): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - out.write(token): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - out.flush(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - out.close(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GetFav")): Send request and verify the response successfully
+
+2019-04-11 16:54:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - getResponseText()).contains("contents"): null
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - verifyElementsCount(response, "", 2): Verify element count successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify element count successfully
+
+2019-04-11 16:54:02 - [TEST_STEP][PASSED] - verifyResponseStatusCodeInRange(response, 100, 200): Verify response status code successfully
+
+2019-04-11 16:54:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 16:53:59 - [TEST_SUITE][PASSED] - apiTest: Test Cases/ps-api]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

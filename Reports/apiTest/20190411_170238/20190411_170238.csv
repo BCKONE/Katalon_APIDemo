@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+apiTest,,,2019-04-11 17:02:45,2019-04-11 17:02:48,2.926s,PASSED
+,,,,,,
+Test Cases/ps-api,,,2019-04-11 17:02:45,2019-04-11 17:02:48,2.655s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GetToken""))",,,2019-04-11 17:02:45,2019-04-11 17:02:47,1.920s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GetFav""))",,,2019-04-11 17:02:47,2019-04-11 17:02:48,0.373s,PASSED
+"verifyElementsCount(response, """", 2)",,,2019-04-11 17:02:48,2019-04-11 17:02:48,0.031s,PASSED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-04-11 17:02:48,2019-04-11 17:02:48,0.013s,PASSED
